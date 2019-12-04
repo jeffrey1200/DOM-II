@@ -60,13 +60,12 @@ para.forEach(text => {
     text.style.fontSize = "3rem";
     text.style.color = "lightblue";
     text.style.transition = "0.3s";
-
-    text.addEventListener("pointerout", () => {
+  });
+ text.addEventListener("pointerout", () => {
       text.style.fontSize = "1.6rem";
       text.style.color = "black";
       text.style.transition = "1s";
     });
-  });
 });
 
 // const introsec = document.querySelector('.intro').addEventListener("contextmenu", (event) => {
